@@ -2,6 +2,8 @@
 #include<vector>
 using namespace std;
 
+//Always select minimum and put it in the front
+
 void selectionSort(vector<int>& arr) {
     int n = arr.size();
     for(int i = 0; i <= n-2; ++i) {
