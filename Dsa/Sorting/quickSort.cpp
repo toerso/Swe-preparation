@@ -2,6 +2,9 @@
 #include<vector>
 using namespace std;
 
+//if pivot = start element then pidx will be j
+//else pivot = last element then pidx will be i
+
 int partition(vector<int>& arr, int lo, int hi) {
     int pivot = arr[hi];
     int i = lo, j = hi;
