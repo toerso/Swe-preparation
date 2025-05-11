@@ -23,7 +23,7 @@ class Solution {
         long long y = (val2 - x);
 
         return {(int) x, (int) y};
-    }
+      }
 };
 
 
