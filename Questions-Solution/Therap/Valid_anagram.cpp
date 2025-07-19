@@ -1,3 +1,5 @@
+//Given two strings. Return true if they are anagram or they can be made anagram by adding one character in one of the strings
+
 #include <iostream>
 #include <array>
 #include <algorithm>
